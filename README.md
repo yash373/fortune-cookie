@@ -1,40 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🥠 Fortune Cookie App
+
+A modern web application that generates random fortune cookie messages using Next.js and Tailwind CSS.
+
+Live demo: [https://fortune-cookie-zj8g.vercel.app/](https://fortune-cookie-zj8g.vercel.app/)
+
+## Features
+
+- ✨ Random fortune cookie generation
+- 🎨 Beautifully animated cookie cracking effect
+- 📱 Fully responsive design
+- 💾 Save favorite fortunes
+
+## Tech Stack
+
+- Next.js 14
+- Tailwind CSS
+- TypeScript
+- Vercel
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18.0 or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yash373/fortune-cookie.git
+cd fortune-cookie
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```
+fortune-cookie/
+├── src/
+│   ├── pages/
+│   │   ├── index.tsx
+│   │   └── _app.tsx
+│   ├── components/
+│   │   └── Cookie.tsx
+│   ├── scripts/
+│   │   └── getMessage.tsx
+│   └── styles/
+│       └── globals.css
+├── public/
+└── tailwind.config.js
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Click the fortune cookie to crack it open
+- Your fortune will appear with a smooth animation
+- Save fortunes to your favorites list
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is deployed on Vercel. You can visit the live version at:
+[https://fortune-cookie-zj8g.vercel.app/](https://fortune-cookie-zj8g.vercel.app/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+To deploy your own version:
+1. Fork this repository
+2. Import the project to [Vercel](https://vercel.com/new)
+3. Deploy with default settings
+
+## Support
+
+For support, please open an issue in the GitHub repository.
+
+## Acknowledgments
+
+- Fortune cookie messages curated from various sources
