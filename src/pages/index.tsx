@@ -2,7 +2,6 @@ import React from 'react'
 import { Cookie } from '@/components/Cookie'
 import { Message } from '@/components/Message'
 import { useState } from 'react'
-import { useEffect } from 'react'
 import getFortune from '@/scripts/getMessage'
 
 const Index = () => {
